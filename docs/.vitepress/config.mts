@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import katex from 'markdown-it-katex'
 
 export default defineConfig({
-  base: '/',
+  base: '/Wavelet-packet-distortion/',
   title: 'Wavelet packet distortion',
   lang: 'zh-CN',
 

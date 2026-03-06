@@ -23,7 +23,7 @@
 2. **随机失真**：随机选取一个小波包节点，使用非线性函数进行扭曲处理。
 3. **重构**：通过逆变换生成具有差异性的增强样本，实现数据集的动态平衡。
 
-<img src="/Fig.1.png" style="width: 100%; " />
+<img src="/zh Fig.1.png" style="width: 100%; " />
 <p align="center" style="color: grey">小波包失真过程图</p>
 
 ## 3. 模型结构：基于 ConvNet 的特征学习
@@ -45,10 +45,10 @@
 
 ### 4.1 分类性能结果
 
-<img src="/Fig.5.png" style="width: 90%; " />
+<img src="/zh Fig.5.png" style="width: 90%; " />
 <p align="center" style="color: grey">四种方法在10次试验中的平均F1得分</p>
 
-<img src="/Fig.6.png" style="width: 90%; " />
+<img src="/zh Fig.6.png" style="width: 90%; " />
 <p align="center" style="color: grey">四种方法在10次试验中的精确度</p>
 
 实验数据显示，本文开发的算法（*Developed*）在 **F1 Score**、**精确率**和**召回率**上领先：
@@ -60,7 +60,7 @@
 
 通过**t-SNE**降维可以看到，本文方法提取的特征类别边界清晰，即使是极少量的故障样本也被精准地从健康样本中分离出来。
 
-<img src="/Fig.11.png" style="width: 100%; " />
+<img src="/zh Fig.11.png" style="width: 100%; " />
 <p align="center" style="color: grey">测试样本在二维特征空间中的分布图</p>
 
 ## 5. 方法特点

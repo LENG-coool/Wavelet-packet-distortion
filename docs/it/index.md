@@ -1,4 +1,4 @@
-# Applicazione della distorsione del pacchetto d'onda e della rete neurale convoluzionale nella diagnosi dei guasti squilibrati
+# Applicazione della deformazione del pacchetto d'onda e della rete neurale convoluzionale nella diagnosi dei guasti squilibrati
 
 <br>
 
@@ -14,18 +14,18 @@ I modelli tradizionali di deep learning (come CNN) normalmente presuppongono una
 **Conseguenza**: Il modello sviluppa una distorsione nella classificazione, tendendo a prevedere tutti i guasti come condizioni normali, con conseguente grave diagnosi errata.
 
 
-## 2. Metodo di distorsione del pacchetto d'onda
+## 2. Metodo di deformazione del pacchetto d'onda
 
 Per affrontare il problema dei campioni di guasto insufficienti, questo articolo propone un **metodo di aumento dei dati basato su elaborazione di segnali** che non solo genera nuovi campioni, ma preserva anche le caratteristiche di frequenza originali dei guasti.
 
 ### Processo tecnico
 
 1. **Decomposizione**: Decomposizione del segnale di vibrazione originale in diversi intervalli di frequenza utilizzando la trasformazione del pacchetto d'onda (WPT).
-2. **Distorsione casuale**: Selezione casuale di un nodo del pacchetto d'onda e applicazione di una funzione non lineare per il trattamento della distorsione.
+2. **Deformazione casuale**: Selezione casuale di un nodo del pacchetto d'onda e applicazione di una funzione non lineare per il trattamento della deformazione.
 3. **Ricostruzione**: Generazione di campioni aumentati con diversità attraverso la trasformazione inversa, conseguimento dell'equilibrio dinamico del set di dati.
 
 <img src="/Fig.1.png" style="width: 100%; " />
-<p align="center" style="color: grey">Diagramma del processo di distorsione del pacchetto d'onda</p>
+<p align="center" style="color: grey">Diagramma del processo di deformazione del pacchetto d'onda</p>
 
 ## 3. Architettura del modello: apprendimento delle caratteristiche basato su ConvNet
 
@@ -66,7 +66,7 @@ Utilizzando la **riduzione della dimensionalità t-SNE**, i confini delle classi
 
 ## 5. Caratteristiche del metodo
 
-- **Diversità**: A differenza della semplice replica, la distorsione del pacchetto d'onda introduce **perturbazioni nel dominio della frequenza**, aumentando la diversità dei dati di addestramento.
+- **Diversità**: A differenza della semplice replica, la deformazione del pacchetto d'onda introduce **perturbazioni nel dominio della frequenza**, aumentando la diversità dei dati di addestramento.
 - **Alta efficienza**: L'addestramento su un PC standard richiede solo circa **8 secondi** per epoca con convergenza veloce.
 - **Robustezza**: La strategia di aumento dinamico sopprime efficacemente il rumore industriale e i problemi di sovradattamento.
 

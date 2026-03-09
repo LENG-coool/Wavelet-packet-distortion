@@ -73,5 +73,5 @@
 
 - **题目**：*Highly imbalanced fault diagnosis of mechanical systems based on wavelet packet distortion and convolutional neural networks*
 - **期刊**：Advanced Engineering Informatics (2022)
-- **DOI**：`10.1016/j.aei.2022.101079`
-- **链接**：[https://www.sciencedirect.com/science/article/pii/S147403462200101079](https://www.sciencedirect.com/science/article/pii/S147403462200101079)
+- **DOI**：`10.1016/j.aei.2022.101535`
+- **链接**：[https://doi.org/10.1016/j.aei.2022.101535](https://doi.org/10.1016/j.aei.2022.101535)

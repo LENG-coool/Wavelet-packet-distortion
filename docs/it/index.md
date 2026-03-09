@@ -74,5 +74,5 @@ Utilizzando la **riduzione della dimensionalità t-SNE**, i confini delle classi
 
 - **Titolo**: *Highly imbalanced fault diagnosis of mechanical systems based on wavelet packet distortion and convolutional neural networks*
 - **Rivista**: Advanced Engineering Informatics (2022)
-- **DOI**: `10.1016/j.aei.2022.101079`
-- **Collegamento**: [https://www.sciencedirect.com/science/article/pii/S147403462200101079](https://www.sciencedirect.com/science/article/pii/S147403462200101079)
+- **DOI**: `10.1016/j.aei.2022.101535`
+- **Collegamento**: [https://doi.org/10.1016/j.aei.2022.101535](https://doi.org/10.1016/j.aei.2022.101535)
